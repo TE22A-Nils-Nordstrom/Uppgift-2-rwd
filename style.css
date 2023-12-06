@@ -1,0 +1,53 @@
+header{
+    border: red solid 2px;
+    border-radius: 2px;
+    background-image: url(./img/snow_winter_trees.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    max-width: 100%;
+    text-align: center;
+}
+
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+main, #maindiv, footer{
+    border: red solid 2px;
+    border-radius: 2px;
+}
+
+#titel{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#maindiv{
+    margin: 2%;
+}
+
+#smhi, #sweclock, #rt{
+    display:flex;
+    flex-direction: column;
+    border: black solid 2px;
+    border-radius: 2px;
+    padding: 1%;
+    margin: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#smhi{
+    width: 15%;
+}
+
+#headerimgsdiv{
+    border: red solid 2px;
+    border-radius: 2px;
+    
+}
